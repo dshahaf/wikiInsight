@@ -1,0 +1,6 @@
+No license file distributed with krb5-libs binary package.
+
+Output of "rpm -q --qf 'License: %{License}\n' krb5-libs" is:
+License: MIT, freely distributable.
+
+For more info see krb5-1.3.4-7.src.rpm

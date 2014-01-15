@@ -1,0 +1,6 @@
+No license file distributed with e2fsprogs binary package.
+
+Output of "rpm -q --qf 'License: %{License}\n' e2fsprogs" is:
+License: GPL
+
+For more info see e2fsprogs-1.35-11.2.src.rpm

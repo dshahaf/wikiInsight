@@ -1,0 +1,31 @@
+Ermine and "starter" in the Ermine-packed applications are 
+statically linked with elibc and libgcc.
+
+elibc (ermine libc) is small libc written (mostly) from scratch.
+
+Following elibc functions based on FreeBSD code:
+( http://www.freebsd.org/cgi/cvsweb.cgi/src/lib/libc/ )
+
+	Function		File with license text
+        ----------------------------------------------
+	div			div.c
+	strchr			index.c
+	strrchr			rindex.c
+	strcmp  		strcmp.c
+	strtol			strtol.c
+	strtoul			strtoul.c
+	isstype			table.c
+
+Function mktime based on the mktime function from newlib-1.16.0
+( ftp://sources.redhat.com/pub/newlib/index.html )
+License file COPYING.NEWLIB
+
+Function svnprintf is from trio version 1.12 
+(http://daniel.haxx.se/projects/trio/) 
+License file README.trio
+
+libgcc is licensed under GPL, but it has exception that allows
+any program linked with libgcc
+
+See libgcc2.c or
+http://gcc.gnu.org/viewcvs/tags/gcc_3_4_2_release/gcc/libgcc2.c?revision=87129&view=markup
