@@ -4,7 +4,7 @@ LDFLAGS += -lrt
 #-fopenmp 
 
 
-SNAPPATH = ../../insight/Snap_Yang/
+SNAPPATH = /lfs/madmax4/0/dshahaf/insight/Snap_Yang/
 
 
 
