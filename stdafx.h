@@ -1,7 +1,7 @@
 #pragma once
 
 #include <stdio.h>
-#include "../../insight/Snap_Yang/snap/Snap.h"
+#include "/lfs/madmax4/0/dshahaf/insight/Snap_Yang/snap/Snap.h"
 
 //#include <mysql.h>
 
